@@ -112,6 +112,7 @@ Direct peers belong here. This table includes both terminal-first multiplexers a
 ### Orchestration-First Terminal Control Planes
 
 - [Agent Deck](https://github.com/asheshgoplani/agent-deck) - An AI agent command center built around `tmux` sessions, status tracking, worktrees, MCP management, and a conductor pattern for supervising fleets of sessions.
+- [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell. For Claude Code, needs-you is shown separately from done, read from the CLI's own hooks.
 - [ntm](https://github.com/Dicklesworthstone/ntm) - A structured multi-agent orchestration system on top of `tmux` with policies, approvals, durable state, and machine-consumable APIs.
 
 ## Adjacent tmux / Worktree Orchestration Tools
