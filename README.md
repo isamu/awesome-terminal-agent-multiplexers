@@ -73,6 +73,7 @@ These prioritize terminals, panes, sessions, worktrees, navigation, and terminal
 These prioritize task routing, supervision, approvals, APIs, dashboards, conductors, and swarms of agents working across many sessions.
 
 - [Agent Deck](https://github.com/asheshgoplani/agent-deck)
+- [MulmoTerminal](https://github.com/receptron/mulmoterminal)
 - [ntm](https://github.com/Dicklesworthstone/ntm)
 - [Warp](https://github.com/warpdotdev/Warp)
 
@@ -90,6 +91,7 @@ Direct peers belong here. This table includes both terminal-first multiplexers a
 | [chloe](https://github.com/KevinEdry/chloe) | Terminal-native orchestrator | Standalone Rust TUI | Git worktrees and Jujutsu workspaces | Claude Code, Gemini CLI, Amp, OpenCode | No | No public API | Lightweight terminal-native orchestration with Kanban-like task tracking |
 | [dmux](https://github.com/formkit/dmux) | Worktree-first agent runner | `tmux`-backed TUI | Built in | Broad CLI-agent support | No | Lifecycle hooks | Fast pane-per-task workflows with worktree isolation and merge helpers |
 | [ntm](https://github.com/Dicklesworthstone/ntm) | Orchestration layer | `tmux`-backed control plane | Session-oriented, worktree use is optional | Multi-agent orchestration | No browser-first UI | REST, SSE, WebSocket, OpenAPI | Policy-driven multi-agent automation and approvals |
+| [MulmoTerminal](https://github.com/receptron/mulmoterminal) | Browser-based agent grid | Node server driving real PTYs, `tmux`-backed | Built in, one worktree per cell | Claude Code, Codex | Browser on the LAN, phone included | REST API, per-project DSL | Watching many sessions at once and being pulled back by the one that is blocked |
 
 ## Recommended Starting Points
 
